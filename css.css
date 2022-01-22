@@ -1,0 +1,26 @@
+@font-face {
+    font-family: YeezyBold;
+    src: url(./Fonts/yeezy_tstar-bold-webfont.ttf);
+  }
+  @font-face {
+      font-family: YeezyRegular;
+      src: url(./Fonts/yeezy_tstar-regular-webfont.ttf);
+  }
+  body {
+      font-family: YeezyRegular;
+  }
+  h1, h2 {
+      font-family: YeezyBold;
+      text-align: center;
+  }
+  #dish {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+  }
+  p {
+      text-align: center;
+  }
+  a{
+      text-decoration: none;
+  }

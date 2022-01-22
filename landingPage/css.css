@@ -1,0 +1,102 @@
+/* Color codes
+Carolina Blue: #449DD1
+EggShell: #EDE7D9
+Safety Orange: #F96900
+*/
+@font-face {
+    font-family: Yeezy;
+    src: url(./yeezy_tstar-regular-webfont.ttf);
+}
+
+* {
+    margin: auto;
+    font-family: Yeezy, 'Times New Roman', Times, serif;
+}
+a {
+    text-decoration: none;
+    color: #449DD1;
+}
+a:hover {
+    color: #F96900;
+}
+h1{
+    margin-bottom: 20px;
+}
+h2 {
+    text-align: center;
+    /* margin-bottom: 20px; */
+}
+header nav{
+    display: flex;
+    background-color: #EDE7D9;
+}
+ul li {
+    display: inline-flex;
+    padding: 20px;
+}
+footer {
+    background-color:#EDE7D9;
+    text-align: center;
+    padding: 10px;
+}
+main {
+    background-color: #EEF0F2;
+    padding: 25px 0px 25px 0px;
+}
+/*ID */
+#logo {
+    width: 50px;
+    height: 50px;
+}
+#hero {
+    display: flex;
+    background-color: #EDE7D9;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+}
+#jordan {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+    shape-outside: circle();
+}
+#mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#quote {
+    font-style: italic;
+    font-weight: bol;
+    text-align: center;
+    padding: 50px;
+    background-color: #DCEED1;
+}
+#kobe {
+    height: 400px;
+    width: 600px;
+}
+#signUp {
+    display: flex;
+    background-color: #449DD1;
+    padding:50px;
+    margin: 50px 200px
+}
+
+/* Classes */
+.heroes{
+    font-size: 12px;
+    margin: 50px;
+}
+.mainBox {
+    margin: 20px 10px 0px 10px;
+    text-align: center;
+    
+}
+.imageMain {
+    height: 135px;
+    width: 135px;
+    border-radius: 50%;
+}
